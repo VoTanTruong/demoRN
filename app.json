@@ -26,7 +26,17 @@
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "config": {
+        "firebase": {
+          "apiKey": "AIzaSyCDA7y6MRoxy2pGBu0CF3bLbOZym4rWrns",
+          "authDomain": "fotobook-fan.firebaseapp.com",
+          "projectId": "fotobook-fan",
+          "storageBucket": "fotobook-fan.appspot.com",
+          "messagingSenderId": "59567416196",
+          "appId": "1:59567416196:web:1d218dc04683a19b19b3d1"
+        }
+      }
     }
   }
 }

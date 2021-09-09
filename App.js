@@ -1,12 +1,15 @@
-import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
 
+import React from 'react';
+import { StyleSheet, View, LogBox } from 'react-native';
+import Component from './components/Component';
+
+
+
+LogBox.ignoreLogs(['Setting a timer for a long period of time'])
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <Component />
     </View>
   );
 }
